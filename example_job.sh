@@ -1,5 +1,5 @@
 # declare a name for this job 
-PBS -N job_01_ali  
+PBS -N job_01_ali2  
 
 # request CPU(s)
 PBS -l ncpus=1
@@ -8,7 +8,7 @@ PBS -l ncpus=1
 PBS -l mem=64G
 
 # request time
-#PBS -l walltime=0:20:00        
+PBS -l walltime=200:20:00        
 
 # mail is sent to you when the job starts and when it terminates or aborts
 PBS -m bea
