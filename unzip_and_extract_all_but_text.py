@@ -7,7 +7,7 @@ import glob, subprocess, datetime, ast
 
 # Input and output folders. Note: make sure you are using the correct folders
 folder_in = "/work/wikidata/"
-folder_out = "/work/wikidata/extracted_files/"
+folder_out = "/work/wikidata/n10954937/extracted_files/"
 
 # List of files to process
 
